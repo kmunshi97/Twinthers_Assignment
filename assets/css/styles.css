@@ -1,0 +1,194 @@
+/* 
+  
+  @description:
+  The global CSS file used to beautify all the webpages of the assignment.
+
+ */
+
+body {
+  overflow: hidden;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: auto !important;
+  width: 80vw;
+  max-width: 100vw;
+}
+
+/* Utility class to center the content inside */
+.centered {
+  margin: auto !important;
+  text-align: center !important;
+}
+
+/* This is used for displaying the headings */
+.text-xl {
+  font-size: 2rem;
+  line-height: 1.2em;
+  color: #ec9b3b;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+  line-height: 1.2em;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+  line-height: 1.2em;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-metadata {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.2em;
+}
+
+/* CSS for the navbar menu */
+.navbar {
+  background: transparent;
+  border: none;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.navbar > li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar > li > .item {
+  padding: 12px 24px;
+  margin: 0 4px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar > li > .item:hover {
+  text-decoration: underline;
+}
+
+.navbar > li > .active {
+  border-radius: 8px;
+  background-color: #ec9b3b;
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+.divider {
+  margin: 1rem 0;
+  line-height: 1;
+  height: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.85);
+  user-select: none;
+  font-size: 1rem;
+  clear: both;
+  border-top: 1px solid rgba(34, 36, 38, 0.35);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.image-xl {
+  display: block;
+  width: 72vw;
+}
+
+/* CSS for Cards */
+.card {
+  background: white;
+  width: 24vw;
+  display: inline-block;
+  margin: auto;
+  border-radius: 16px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.card-image {
+  position: relative;
+  height: 180px;
+  margin-bottom: 32px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  /* background-color: #ec9b3b; */
+}
+
+.card-image > img {
+  z-index: 0;
+  position: absolute;
+  top: -96px;
+  right: -96px;
+}
+
+.img-sm {
+  width: 240px !important;
+}
+
+.img-md {
+  width: 360px !important;
+}
+
+.img-lg {
+  width: 400px !important;
+}
+
+.card-metadata {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #ec9b3b;
+}
+
+.card-title {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.card-description {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #444;
+}
+
+.card-divider {
+  margin: 0.5rem auto;
+  line-height: 1;
+  width: 64px;
+  height: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.85);
+  user-select: none;
+  font-size: 1rem;
+  clear: both;
+  border-top: 1.5px solid rgb(212, 139, 53);
+  border-bottom: 1px solid rgb(241, 185, 117);
+}
+
+.statistics {
+  color: #ec9b3b;
+}
